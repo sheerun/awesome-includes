@@ -1,1 +1,3 @@
-module.exports = (e) => e.includes?(42)
+module.exports = function (e) {
+  return e.includes(42)
+}
